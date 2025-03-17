@@ -1,0 +1,45 @@
+:root{
+    --logorengi: hsla(0, 0%, 0%, 0.9);
+    --renk1: #edede9;
+    --renk2: #d6ccc2;
+    --renk3: #f5ebe0;
+    --renk4: #e3d5ca;
+    --renk5: #d5bdaf;
+    
+    --renk6: #ede0d4;
+    --renk7: #e6ccb2;
+    --renk8: #ddb892;
+    --renk9: #b08968;
+    --renk10: #7f5539;
+    --renk11: #9c6644;
+
+    --renk12: #582f0e;
+    --renk13: #7f4f24;
+    --renk14: #936639;
+    --renk15: #a68a64;
+    --renk16: #b6ad90;
+    --renk17: #c2c5aa;
+    --renk18: #a4ac86;
+    --renk19: #656d4a;
+    --renk20: #414833;
+    --renk21: #333d29;
+    
+    --birincirenk: hsla(208, 100%, 97%),0.4;
+    --background: hsla(34, 78%, 91%,1);
+    --ikincirenk: hsla(197, 100%, 42%);
+    --gradient1: linear-gradient(to top, hsla(18, 63%, 79%,0.8) 0%, hsla(250, 78%, 88%,0.1) 100%);
+    --gradient2: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+    --gradient3: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+    --gradient4: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+    --gradient5: linear-gradient(to top, #feada6 0%, #f5efef 100%);
+    --gradient6: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+    --gradient7: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
+    --gradient8: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+    --gradient9: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    --gradient10: linear-gradient(to right, #ff758c 0%, #ff7eb3 100%);
+    --gradient11: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+    --gradient12: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+    --gradient13: linear-gradient(to top,#f5efef 0%,#9795f0  100%);
+    --gradient14: linear-gradient(to left, #37ecba 0%, #72afd3 100%);
+    
+}

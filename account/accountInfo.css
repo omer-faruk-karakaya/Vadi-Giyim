@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Gabriela", serif;
+}
+
+.back {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100dvh;
+  background-image: url(./images/info.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  border-radius: 14px;
+  width: 30%;
+  height: 90dvh;
+  background-color: #ffffff4a;
+  backdrop-filter: blur(10vh);
+  position: relative;
+}
+
+.account {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 200%;
+}
+
+.turnBack {
+  position: absolute;
+  top: 4vh;
+  left: 4vh;
+  font-size: 150%;
+  color: white;
+  width: 12%;
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 14px;
+  background-color: #ffffff76;
+  backdrop-filter: blur(10vh);
+}
+
+.turnBack a {
+  text-decoration: none;
+  color: black;
+}
+
+.account-info {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  top: 5vh;
+  width: 90%;
+  height: 65vh;
+  position: relative;
+  border-radius: 14px;
+  background-color: #ffffff01;
+  backdrop-filter: blur(10vh);
+  padding: 2%;
+  font-size: 150%;
+}
+
+.username {
+  width: 80%;
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 14px;
+  background-color: #ffffff76;
+  backdrop-filter: blur(10vh);
+}
+
+.email {
+  top: 2vh;
+  position: relative;
+  width: 80%;
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 14px;
+  background-color: #ffffff76;
+  backdrop-filter: blur(10vh);
+}
+
+.logout {
+  position: absolute;
+  bottom: 2vh;
+  width: 30%;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 14px;
+  background-color: #ffffff76;
+  backdrop-filter: blur(10vh);
+}
+
+.logout a {
+  text-decoration: none;
+  color: black;
+}
+
+@media(max-width: 768px) {
+  .container {
+    width: 90%;
+    height: 70vh;
+  }
+
+  .username {
+    width: 100%;
+  }
+
+  .logout {
+    width: 95%;
+
+  }
+
+  .turnBack {
+    position: absolute;
+    z-index: 2;
+    width: 30%;
+  }
+
+  .text {
+    height: 50vh;
+    margin-bottom: 15vh;
+  }
+}

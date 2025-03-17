@@ -1,0 +1,252 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 85%;
+    height: 85dvh;
+
+    margin: 50px auto;
+    border-radius: 15px;
+    background-color: #ffffff4a;
+    backdrop-filter: blur(10vh);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th,
+table td {
+    padding: 10px;
+    text-align: left;
+    background-color: #ffffff4a;
+    backdrop-filter: blur(10vh);
+
+}
+
+th {
+    background-color: #f8f8f8;
+    font-weight: bold;
+}
+
+button {
+    background-color: #a73a3a;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e63946;
+}
+
+.clear-cart {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #2f6d32;
+    transition: .3s;
+}
+
+.clear-cart:hover {
+    background-color: #45a049;
+}
+
+.cartBg {
+
+    width: 100%;
+    height: 100dvh;
+    background-image: url(./images/cartBg.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arkaplan {
+    position: fixed;
+    width: 100%;
+    height: 100dvh;
+    background-image: url(./images/cartBg.jpg);
+}
+
+.return {
+    width: 10%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*
+    background-color: #ffffff4a;
+    backdrop-filter: blur(10vh);
+    border-radius: 14px;
+    */
+
+}
+
+.return a {
+    transition: .3s;
+    text-decoration: none;
+    color: black;
+}
+
+.return a:hover {
+    transform: scale(1.1);
+}
+
+.yazi1 {
+    display: none;
+}
+
+.yazi2 {
+    display: none;
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    /* 85%'ten 90%'a çıkarıldı daha iyi mobil görünüm için */
+    min-height: 85vh;
+    /* height yerine min-height kullanıldı */
+    margin: 20px auto;
+    /* üst margin azaltıldı */
+    border-radius: 15px;
+    /*
+    background-color: #ffffff4a;
+    backdrop-filter: blur(10px); 
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    */
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+    table {
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0 8px;
+    }
+
+    tr {
+        
+        display: block;
+        margin-bottom: 15px;
+        background-color: #ffffff4a;
+        border-radius: 8px;
+    }
+
+    td,
+    th {
+        display: block;
+        padding: 10px;
+        border: none;
+        clear: both;
+        position: relative;
+        text-align: left;
+    }
+
+    /* Başlıkları gizle */
+    thead {
+        display: none;
+    }
+
+    /* Her hücre için etiket ekle */
+    td::before {
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        margin-right: 10px;
+        width: 40%;
+    }
+
+    /* Hücre içeriğini sağa kaydır */
+    td span,
+    td button {
+        float: right;
+        width: 55%;
+    }
+
+    /* Butonlar için özel stil */
+    td button {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    /* Clear float */
+    td:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .container {
+        backdrop-filter: none;
+    }
+    .hg{
+        position: absolute;
+        display: flex;
+        width: 300px;
+        height: 80px;
+        top: 0;
+        left: 20%;
+    }
+    .return {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        backdrop-filter: blur;
+        height: 20px;
+        top: 70px;
+        left: 130px;
+        width: 18vw;
+        border-radius: 10px;
+        background-color: #ffffff4a;
+        backdrop-filter: blur(10px);
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    }
+}
+
+/* Küçük ekranlar için ek medya sorgusu */
+@media (max-width: 480px) {
+    .container {
+        width: 98%;
+        margin: 5px auto;
+    }
+
+    td {
+        padding-left: 40%;
+    }
+}

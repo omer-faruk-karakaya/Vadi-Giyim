@@ -1,0 +1,73 @@
+---
+
+*PROJE RAPORU*  
+*Konu:* Web Sitesi Tasarımı ve Kullanıcı Deneyimi Analizi  
+
+*Hazırlayan:* [Mert Efe Güner ve Ömer Faruk KARAKAYA]  
+*Tarih:* [12.01.2025]
+
+
+
+---
+
+    *1. Projenin Amacı*
+Bu proje, kullanıcı dostu, dinamik ve modern bir e-ticaret web sitesinin tasarlanması ve geliştirilmesini hedeflemiştir. Kullanıcı deneyimini ön planda tutarak tasarlanan bu site, sade bir arayüz ve işlevsel bir yapıyla müşterilerin ihtiyaçlarını kolayca karşılayabilmeyi amaçlamaktadır.
+
+---
+
+    *2. Genel Tasarım Özellikleri*
+- *Ana Sayfa:*  
+  Ana sayfa, dikkat çekici bir görsel tasarıma ve kullanıcı dostu bir navigasyon menüsüne sahiptir. Menüade "Ürünler", "Sepetim" ve "Hesabım" gibi ana bölümler yer almakta, kullanıcıların site içinde kolayca yönlenmesine olanak tanımaktadır.
+
+- *Hesabım Sayfası:*  
+  Kullanıcıların profil bilgilerini görüntüleyebildiği bu sayfa, "Geri Dön" ve "Çıkış Yap" gibi seçeneklerle kullanıcıya kolaylık sağlamaktadır. Giriş yapılmadığında "Hesabım" sekmesi "Kayıt Ol" şeklinde değişerek kullanıcıya rehberlik etmektedir.
+
+- *Sepet Sayfası:*  
+  Kullanıcılar, ürünleri sepetlerine eklediklerinde miktarları otomatik olarak güncellenir. Ayrıca, tek tek ürünleri silme veya tüm sepeti temizleme seçenekleri bulunmaktadır. Bu işlevsellik, kullanıcıların alışveriş deneyimini optimize etmektedir.
+
+- *Dinamik Ürün Sayfaları:*  
+  Ürünler SQL veritabanından dinamik olarak çekilmekte ve düzenlenmektedir. Bu yapı sayesinde, ürünlerin sürekli güncel kalması sağlanmıştır. Ürün görsellerinin geçişli olarak sunulması, estetik açıdan katkı sağlamaktadır.
+
+---
+
+    *3. Teknik Özellikler*
+- *Kullanılan Teknolojiler:*
+  - *HTML ve CSS:* Arayüz tasarımı ve görsel öğelerin yapılandırılması.
+  - *PHP:* Arka uç işlevleri ve SQL ile veri etkileşimi için kullanılmıştır.
+  - *JavaScript:* Dinamik görseller ve kullanıcı deneyimi odaklı geçişler için tercih edilmiştir.
+  - *SQL:* Ürün bilgilerini saklamak ve siteye entegre etmek için güvenilir bir veritabanı çözümü olarak kullanılmıştır.
+
+- *Kullanıcı Deneyimi:*
+  - Siteye giriş yapmadan alışveriş yapılamadığı durumlarda, kullanıcıya rehberlik eden uyarılar sunulmaktadır.
+  - Mouse hareketleri ile arka planın dinamik olarak değişmesi, modern ve etkileşimli bir deneyim yaratmaktadır.
+
+---
+
+    *4. Kullanıcı Deneyimi Geliştirmeleri*
+- *Geçişler ve Animasyonlar:*  
+  Sayfaların yavaşça yüklenmesi, kullanıcıların dikkatini artırmakta ve profesyonel bir görünüm sunmaktadır.
+
+- *Kişiselleştirme:*  
+  Kullanıcı adının ve özel bilgilerin görüntülenmesi, kullanıcıya daha özel bir deneyim sunmaktadır.
+
+- *Dönüt ve Uyarılar:*  
+  Kullanıcının eksik ya da hatalı bir işlem yapması durumunda gösterilen uyarılar, kullanıcıyı doğru yönlendirmektedir.
+
+---
+
+    *5. Değerlendirme ve Öneriler*
+
+*1.* *Gelişmiş Güvenlik:* SQL işlemleri için daha güvenli sorgular (ör. Prepared Statements) kullanılabilir.  
+*2.* *Performans Optimizasyonu:* Sayfa yükleme sürelerini iyileştirmek için görsel ve kod optimizasyonları yapılabilir.  
+
+---
+
+    *6. Sonuç*
+Proje, kullanıcı odaklı tasarım ilkelerine uygun bir şekilde geliştirilmiştir. Kullanıcıların alışveriş sücrecini kolaylaştırmak ve keyifli bir deneyim sunmak hedeflenmiştir. Dinamik ve modern yapısıyla bu proje, hem teknik hem de tasarımsal açıdan güçlü bir örnek oluşturmaktadır.
+
+---
+(mobil için iphone 12 pro'yu örnek aldık )
+
+
+---
+

@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Doto:wght@100..900&family=Ga+Maamli&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanalei&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+
+
+:root {
+    --font1: "Sixtyfour Convergence", sans-serif;
+    --font2: "Roboto",sans-serif;
+    --font3: "Doto",sans-serif;
+    --font4: "Ga Maamli",sans-serif;
+    --font5: "Caveat",sans-serif;
+    --font6: "Dancing Script",sans-serif;
+    --font7: "Hanalei",sans-serif;
+    --font8: "Rubik Distressed",sans-serif;
+    --font9: "Borel", sans-serif;
+    --font10: "Tilt Prism", sans-serif;
+    --font11: "Rubik Dirt", sans-serif;
+    --font12: "Gabriela", sans-serif;
+    --font13: "", sans-serif;
+    --font14: "", sans-serif;
+    --font15: "", sans-serif;
+    --font16: "", sans-serif;
+    --font17: "", sans-serif;
+    --font18: "", sans-serif;
+    --font19: "", sans-serif;
+
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+        
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
