@@ -268,7 +268,18 @@ input::placeholder {
 .back a:hover {
     transform: scale(1.1);
 }
-
+.php-error-message{
+    margin-left: 17vh;
+    margin-top: -2vh;
+    font-size: 120%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    border-radius: 7px;
+    background-color: rgba(255, 0, 0, 0.256);
+}
 @media (max-width: 768px) {
     .login-container {
         margin-top: 10vh;

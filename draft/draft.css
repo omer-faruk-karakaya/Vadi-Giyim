@@ -176,7 +176,7 @@ body {
     width: 25vw;
     backdrop-filter: blur(7px);
     -webkit-backdrop-filter: blur(10px);
-    background-color: rgba(255, 255, 255, 0.1);
+  
     border-radius: 0px;
 
 }
@@ -299,9 +299,10 @@ body {
 /**cart**/
 /**cart-button**/
 .cartButton {
-    width: 100%;
-    height: 7vh;
+    width: 300%;
+    height: 6vh;
     border-radius: 14px;
+    transform: translateX(-10rem);
     border: none;
     color: white;
     background-color: rgb(1, 90, 1);
